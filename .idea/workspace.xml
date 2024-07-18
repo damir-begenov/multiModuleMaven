@@ -4,42 +4,222 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efae467f-9eea-450a-b5f0-bd5a9fcdb5d2" name="Changes" comment="" />
+    <list default="true" id="efae467f-9eea-450a-b5f0-bd5a9fcdb5d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/configuration/CustomSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/DossierApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/DossierApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/configuration/DossierDataSourceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/configuration/DossierDataSourceConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/controller/DoseirController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/controller/DoseirController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/AdvocateListEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/AdvocateListEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/AuditorsListEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/AuditorsListEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/BailiffListEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/BailiffListEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/Children.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/Children.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/CommodityProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/CommodityProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/Credentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/Credentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/Equipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/Equipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/EsfAll2.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/EsfAll2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/EsfNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/EsfNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/FLRiskDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/FLRiskDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/FlContacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/FlContacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/FlFirstRowDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/FlFirstRowDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/FlPensionContr.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/FlPensionContr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/FlPensionFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/FlPensionFinal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/FlPensionMini.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/FlPensionMini.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/FlRelatives.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/FlRelatives.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/FlRelativesLevelDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/FlRelativesLevelDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/FlRelativiesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/FlRelativiesDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/IpgoEmailEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/IpgoEmailEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/Lawyers.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/Lawyers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/Logs.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/Logs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/MilitaryAccounting2Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/MilitaryAccounting2Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/MillitaryAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/MillitaryAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/Msh.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/Msh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/MvAutoFl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/MvAutoFl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/MvFl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/MvFl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/MvIinDoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/MvIinDoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/MvRnOld.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/MvRnOld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/MvUl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/MvUl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/MvUlFounderFl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/MvUlFounderFl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/MvUlFounderUl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/MvUlFounderUl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/MvUlLeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/MvUlLeader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/MvUlLeaderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/MvUlLeaderEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/NdsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/NdsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/NodesFL.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/NodesFL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/NodesUL.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/NodesUL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/PhotoDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/PhotoDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/QoldauSubsidy.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/QoldauSubsidy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/RegAddressFl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/RegAddressFl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/RegAddressUlEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/RegAddressUlEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/SearchResultModelFL.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/SearchResultModelFL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/SearchResultModelUl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/SearchResultModelUl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/SvedenyaObUchastnikovUlEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/SvedenyaObUchastnikovUlEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/TIpEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/TIpEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/TaxOutEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/TaxOutEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsDossier/Universities.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsDossier/Universities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/AccountantListEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/AccountantListEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/Adm.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/Adm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/Bankrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/Bankrot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/BeneficiariesList.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/BeneficiariesList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/BlockEsf.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/BlockEsf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/ConvictsAbroad.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/ConvictsAbroad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/ConvictsJustified.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/ConvictsJustified.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/ConvictsTerminatedByRehab.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/ConvictsTerminatedByRehab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/Criminals.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/Criminals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/Dismissal.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/Dismissal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/Dormant.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/Dormant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/DrugAddicts.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/DrugAddicts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/FirstCreditBureauEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/FirstCreditBureauEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/FpgTempEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/FpgTempEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/ImmoralLifestyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/ImmoralLifestyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/Incapacitated.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/Incapacitated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/Kuis.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/Kuis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/MzEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/MzEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/Omn.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/Omn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/OpgEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/OpgEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/Orphans.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/Orphans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/Pdl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/Pdl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/modelsRisk/WantedListEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/modelsRisk/WantedListEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/AccountantListEntityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/AccountantListEntityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/AdmRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/AdmRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/AdvocateListEntityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/AdvocateListEntityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/AuditorsListEntityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/AuditorsListEntityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/BailiffListEntityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/BailiffListEntityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/BankrotRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/BankrotRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/BeneficiariesListRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/BeneficiariesListRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/BlockEsfRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/BlockEsfRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/CommodityProducerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/CommodityProducerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/ConvictsAbroadRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/ConvictsAbroadRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/ConvictsJustifiedRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/ConvictsJustifiedRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/ConvictsTerminatedtByRehabRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/ConvictsTerminatedtByRehabRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/CredentialsRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/CredentialsRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/CriminalsRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/CriminalsRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/DismissalRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/DismissalRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/DormantRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/DormantRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/DrugAddictsRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/DrugAddictsRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/EquipmentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/EquipmentRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/EsfAll2Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/EsfAll2Repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/FirstCreditBureauEntityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/FirstCreditBureauEntityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/FlContactsRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/FlContactsRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/FlPensionContrRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/FlPensionContrRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/FlPensionMiniRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/FlPensionMiniRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/FlRelativesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/FlRelativesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/FpgTempEntityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/FpgTempEntityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/ImmoralLifestlyeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/ImmoralLifestlyeRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/IncapacitatedRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/IncapacitatedRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/IpgoEmailEntityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/IpgoEmailEntityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/KuisRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/KuisRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/LogsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/LogsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/MilitaryAccounting2Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/MilitaryAccounting2Repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/MshRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/MshRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/MvAutoFlRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/MvAutoFlRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/MvFlRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/MvFlRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/MvIinDocRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/MvIinDocRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/MvRnOldRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/MvRnOldRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/MvUlFounderFlRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/MvUlFounderFlRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/MvUlFounderUlRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/MvUlFounderUlRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/MvUlLeaderEntityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/MvUlLeaderEntityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/MvUlLeaderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/MvUlLeaderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/MvUlRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/MvUlRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/MzEntityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/MzEntityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/NdsEntityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/NdsEntityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/NewPhotoRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/NewPhotoRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/OmnRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/OmnRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/OpgRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/OpgRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/OrphansRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/OrphansRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/PdlRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/PdlRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/QoldauRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/QoldauRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/RegAddressFlRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/RegAddressFlRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/RegAddressUlEntityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/RegAddressUlEntityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/SchoolRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/SchoolRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/TIpEntityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/TIpEntityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/TaxOutEntityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/TaxOutEntityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/UniversitiesRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/UniversitiesRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/WantedListRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/WantedListRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/repositoryDossier/militaryAccountRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/repositoryDossier/militaryAccountRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/service/FlRiskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/service/FlRiskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/service/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/service/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/service/PhotoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/service/PhotoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/dossier/tools/PdfGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/tools/PdfGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/extractor/Mv_fl_extractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/java/com/example/dossier/extractor/Mv_fl_extractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dossier/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dossier/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/example/security/SecurityApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/example/security/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/com/example/security/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/example/security/security/jwt/AuthTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/com/example/security/security/jwt/AuthTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/example/security/security/jwt/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/com/example/security/security/jwt/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/example/security/security/services/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/com/example/security/security/services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/test/java/com/example/security/SecurityApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2jN2td2CmKwptzCz0zRB1kDFSZx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/damirbegenov/Desktop/multiModel&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SecurityApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DossierApplication">
     <configuration name="DossierApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="dossier" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.dossier.DossierApplication" />
       <method v="2">
@@ -53,6 +233,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DossierApplication" />
+      <item itemvalue="Spring Boot.SecurityApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -62,7 +246,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721213430579</updated>
-      <workItem from="1721213431950" duration="2799000" />
+      <workItem from="1721213431950" duration="6616000" />
+      <workItem from="1721280660908" duration="8000" />
+      <workItem from="1721280943958" duration="2884000" />
+      <workItem from="1721284514611" duration="9000" />
+      <workItem from="1721284528697" duration="24000" />
+      <workItem from="1721284568918" duration="38000" />
+      <workItem from="1721284624374" duration="59000" />
+      <workItem from="1721284700798" duration="18000" />
+      <workItem from="1721284892643" duration="4915000" />
+      <workItem from="1721291117388" duration="1761000" />
     </task>
     <servers />
   </component>

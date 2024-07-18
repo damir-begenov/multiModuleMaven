@@ -6,16 +6,10 @@
         <groupId>com.example</groupId>
         <artifactId>multiMaven</artifactId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <packaging>jar</packaging>
-    <groupId>com.example</groupId>
     <artifactId>security</artifactId>
-    <version>${parent.version}</version>
-    <name>security</name>
-    <description>Pandora on Spring Boot</description>
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
+    <packaging>jar</packaging>
     <dependencies>
 
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-neo4j -->
@@ -112,10 +106,10 @@
             <artifactId>jjwt</artifactId>
             <version>0.9.1</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-security</artifactId>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.testcontainers</groupId>
             <artifactId>neo4j</artifactId>
@@ -217,21 +211,5 @@
     </dependencies>
 
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-            <!--            <plugin>-->
-            <!--                <groupId>org.apache.maven.plugins</groupId>-->
-            <!--                <artifactId>maven-compiler-plugin</artifactId>-->
-            <!--                <configuration>-->
-            <!--                    <source>9</source>-->
-            <!--                    <target>9</target>-->
-            <!--                </configuration>-->
-            <!--            </plugin>-->
-        </plugins>
-    </build>
 
 </project>

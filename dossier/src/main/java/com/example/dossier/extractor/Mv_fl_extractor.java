@@ -1,6 +1,6 @@
 package com.example.dossier.extractor;
 
-import com.example.dossier.dossier.modelsDossier.MvFl;
+import com.example.dossier.modelsDossier.MvFl;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.ResultSetExtractor;
 

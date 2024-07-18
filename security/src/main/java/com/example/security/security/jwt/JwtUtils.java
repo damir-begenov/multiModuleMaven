@@ -5,8 +5,8 @@ import com.example.security.security.services.UserDetailsImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
+import org.springframework.security.core.Authentication;
 
 import java.util.Date;
 
@@ -21,14 +21,13 @@ public class JwtUtils {
   private int jwtExpirationMs;
 
   public String generateJwtToken(Authentication authentication) {
-
     UserDetailsImpl userPrincipal = (UserDetailsImpl) authentication.getPrincipal();
-
     return Jwts.builder()
-        .setSubject((userPrincipal.getUsername()))
-        .setIssuedAt(new Date())
-        .signWith(SignatureAlgorithm.HS512, jwtSecret)
-        .compact();
+            .setSubject((userPrincipal.getUsername()))
+            .setIssuedAt(new Date())
+            .setExpiration(new Date((new Date()).getTime() + jwtExpirationMs))
+            .signWith(SignatureAlgorithm.HS512, jwtSecret)
+            .compact();
   }
 
   public String getUserNameFromJwtToken(String token) {
